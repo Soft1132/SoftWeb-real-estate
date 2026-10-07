@@ -1,1 +1,0 @@
-# SoftWeb-real-estate
