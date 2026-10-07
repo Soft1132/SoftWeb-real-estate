@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c0e">
+  <title>SOFT — Reels for Real Estate Agents</title>
+  <meta name="description" content="Reels for real estate agents building their social presence. Personal brand, property tours and expert content, edited by SOFT.">
+  <meta property="og:title" content="SOFT — Reels for Real Estate Agents">
+  <meta property="og:description" content="Your listings. Your expertise. Your name. Reels for real estate agents building their social presence.">
+  <link rel="icon" type="image/svg+xml" href="assets/SOFT-round-logo.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="player.css">
+  <script src="reels.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="player.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="SOFT home">SOFT</a>
+    <nav aria-label="Main navigation">
+      <a class="nav-work" href="#reels" data-i18n="navWork">Reels</a>
+      <a class="nav-about" href="#approach" data-i18n="navAbout">Approach</a>
+      <a class="nav-contact" href="#contact" data-i18n="navContact">Let’s talk</a>
+    </nav>
+    <button class="language" id="language-toggle" type="button" aria-label="Switch to Russian">EN <span>/ RU</span></button>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/villa.webp" width="1536" height="1024" alt="Contemporary villa with warm windows beside an infinity pool at blue hour" fetchpriority="high" data-alt="villa">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <h1 id="hero-title" data-i18n="heroTitle">Helping real estate agents grow their personal brand.</h1>
+        <div class="hero-bottom">
+          <a class="button button-white" href="#reels" data-i18n="heroButton">Explore the reels</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-wrap" id="reels" aria-labelledby="work-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="workLabel">REELS FOR YOUR SOCIAL PRESENCE</p>
+        <h2 id="work-title" data-i18n="workTitle">Your listings. Your voice.</h2>
+        <span class="section-side">9:16 / REELS</span>
+      </div>
+      <article class="project project-right">
+        <div class="project-copy reveal">
+          <span class="project-index">01 / <span data-i18n="category1">LIFE IN ORLANDO</span></span>
+          <h3 id="reel-title-1" data-i18n="title1">Orlando.<br> Through an agent’s eyes.</h3>
+          <p data-i18n="description1">A reel about life in Orlando. Dynamic transitions and bold captions bring the key ideas into focus.</p>
+          <div class="project-tags"><span data-i18n="tag1a">Transitions</span><span data-i18n="tag1b">Captions</span><span data-i18n="tag1c">Location</span></div>
+        </div>
+        <figure class="reel-shell has-video reveal" data-reel="0">
+          <div class="reel-media"><video src="assets/reels/reel-03-web.mp4" poster="assets/reels/reel-03-poster.webp" controls preload="none" playsinline aria-labelledby="reel-title-1"></video></div>
+        </figure>
+      </article>
+      <article class="project project-left">
+        <div class="project-copy reveal">
+          <span class="project-index">02 / <span data-i18n="category2">PROPERTY TOUR</span></span>
+          <h3 id="reel-title-2" data-i18n="title2">A home.<br> In every detail.</h3>
+          <p data-i18n="description2">A tour of the house, interiors and grounds. Smooth editing lets viewers feel the space.</p>
+          <div class="project-tags"><span data-i18n="tag2a">Flow</span><span data-i18n="tag2b">Detail</span><span data-i18n="tag2c">Atmosphere</span></div>
+        </div>
+        <figure class="reel-shell has-video reveal" data-reel="1">
+          <div class="reel-media"><video src="assets/reels/reel-02-web.mp4" poster="assets/reels/reel-02-poster.webp" controls preload="none" playsinline aria-labelledby="reel-title-2"></video></div>
+        </figure>
+      </article>
+      <article class="project project-right">
+        <div class="project-copy reveal">
+          <span class="project-index">03 / <span data-i18n="category3">EXPERT REEL</span></span>
+          <h3 id="reel-title-3" data-i18n="title3">Expertise.<br> With a personal touch.</h3>
+          <p data-i18n="description3">An agent shares her approach to selling. Clean cuts, expressive captions and graphic accents.</p>
+          <div class="project-tags"><span data-i18n="tag3a">Captions</span><span data-i18n="tag3b">Graphics</span><span data-i18n="tag3c">Voice</span></div>
+        </div>
+        <figure class="reel-shell has-video reveal" data-reel="2">
+          <div class="reel-media"><video src="assets/reels/reel-01-web.mp4" poster="assets/reels/reel-01-poster.webp" controls preload="none" playsinline aria-labelledby="reel-title-3"></video></div>
+        </figure>
+      </article>
+    </section>
+
+    <section class="approach section-wrap" id="approach" aria-labelledby="approach-title">
+      <div class="approach-intro reveal">
+        <p class="eyebrow" data-i18n="aboutLabel">YOUR EDITOR, BEHIND THE SCENES</p>
+        <h2 id="approach-title" data-i18n="aboutTitle">Hi, I’m Artyom.<br> You can call me SOFT.</h2>
+        <p class="about-body" data-i18n="aboutDescription">I turn your footage into reels that reflect your expertise and personality. We agree on the style, deadline and scope before editing begins.</p>
+      </div>
+      <div class="process reveal">
+        <div><span class="process-number">01</span><p><strong data-i18n="process1Title">A style that fits you</strong><span data-i18n="process1Text">Your page, your audience and a shared reference.</span></p></div>
+        <div><span class="process-number">02</span><p><strong data-i18n="process2Title">Reels in batches</strong><span data-i18n="process2Text">Plan the volume and deadlines around your filming.</span></p></div>
+        <div><span class="process-number">03</span><p><strong data-i18n="process3Title">Clear feedback</strong><span data-i18n="process3Text">Timecoded notes and agreed revisions in one place.</span></p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner section-wrap reveal">
+        <p class="eyebrow" data-i18n="contactLabel">YOUR NEXT STEP ON SOCIAL</p>
+        <h2 id="contact-title" data-i18n="contactTitle">A page that feels like you.<br> Start with one reel.</h2>
+        <div class="contact-bottom">
+          <div><p data-i18n="contactDescription">Send me your profile and an idea.<br> We’ll discuss the style and start with one video.</p><a class="email-link" href="mailto:artyomsoft91@gmail.com">artyomsoft91@gmail.com</a></div>
+          <a class="button button-white contact-button" id="email-cta" href="mailto:artyomsoft91@gmail.com?subject=Reels%20for%20my%20real%20estate%20page&amp;body=Hi%20Artyom%2C%0A%0AI%E2%80%99d%20like%20to%20discuss%20reels%20for%20my%20real%20estate%20page.%0AMy%20profile%3A%20%0AVideo%20idea%3A%20%0AFootage%20(if%20available)%3A%20" data-i18n="contactButton">Discuss your first reel</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer section-wrap">
+    <a class="brand" href="#" aria-label="SOFT home">SOFT</a>
+    <span data-i18n="footer">REELS FOR REAL ESTATE AGENTS</span>
+    <span>© <span id="year">2026</span> SOFT</span>
+    <div class="agency-credit"><span data-i18n="agencyLead">Need a website?</span> <a href="https://kkagency.tech/" target="_blank" rel="noopener noreferrer" data-i18n="agencyLink">Get yours built by KK agency</a></div>
+  </footer>
+</body>
+</html>
